@@ -22,3 +22,11 @@ button:hover {
   color: var(--font-black);
   background: linear-gradient(90deg, var(--red), var(--red-dark));
 }
+
+@media (max-width:1440px) {
+  button {
+    width: 230px;
+    height: 70px;
+    font-size: 18px;
+  }
+}

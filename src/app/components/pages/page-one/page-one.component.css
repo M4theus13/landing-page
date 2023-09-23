@@ -7,8 +7,12 @@
 }
 
 .box {
-  width: 700px;
+  max-width: 700px;
   height: 800px;
+
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
 }
 
 h1 {
@@ -32,4 +36,37 @@ span {
 .box-button p {
   font-size: 24px;
   font-weight: 300;
+}
+
+@media (max-width:1440px) {
+  h1 {
+    font-size: 42px;
+    width: 470px;
+  }
+
+  .text p {
+    font-size: 19px;
+    width: 366px;
+  }
+
+  .box-button p {
+    font-size: 18px;
+  }
+}
+
+@media (max-width: 425px) {
+
+  h1 {
+    font-size: 27px;
+    width: 309px;
+  }
+
+  .text p {
+    font-size: 15px;
+    width: 296px;
+  }
+
+  .box-button p {
+    font-size: 16px;
+  }
 }
