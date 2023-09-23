@@ -1,0 +1,35 @@
+#one {
+  display: flex;
+  width: 100%;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.box {
+  width: 700px;
+  height: 800px;
+}
+
+h1 {
+  font-size: 62px;
+  margin-bottom: 60px;
+  font-weight: 700;
+}
+
+.text p {
+  font-size: 32px;
+}
+
+span {
+  color: var(--red);
+}
+
+.box-button {
+  margin-top: 130px;
+}
+
+.box-button p {
+  font-size: 24px;
+  font-weight: 300;
+}
