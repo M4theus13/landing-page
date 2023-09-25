@@ -8,6 +8,7 @@ import { PageThreeComponent } from './components/pages/page-three/page-three.com
 import { PageFourComponent } from './components/pages/page-four/page-four.component';
 import { PageFiveComponent } from './components/pages/page-five/page-five.component';
 import { ButtonComponent } from './components/button/button.component';
+import { CardsComponent } from './components/cards/cards.component';
 
 @NgModule({
   declarations: [
@@ -17,7 +18,8 @@ import { ButtonComponent } from './components/button/button.component';
     PageThreeComponent,
     PageFourComponent,
     PageFiveComponent,
-    ButtonComponent
+    ButtonComponent,
+    CardsComponent
   ],
   imports: [
     BrowserModule

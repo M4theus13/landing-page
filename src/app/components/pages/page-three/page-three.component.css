@@ -1,3 +1,38 @@
 #three {
   position: relative;
+  display: flex;
+  align-items:  center;
+  flex-direction: column;
+  justify-content: center;
+}
+
+h1 {
+  text-transform: uppercase;
+  font-weight: 900;
+  line-height: 30px;
+  letter-spacing: 4.32px;
+  font-size: 25px;
+  text-align: center;
+  padding-bottom: 25px;
+  width: 320px;
+}
+
+.cards {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  gap: 10px;
+}
+
+@media (min-width:768px) {
+  .cards {
+    flex-direction: row;
+    justify-content: center;
+  }
+}
+
+@media (min-width:1360px) {
+
+
+
 }
