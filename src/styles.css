@@ -34,7 +34,7 @@ html {
 }
 
 .section {
-  height: 100vh;
+  height: 100svh;
   width: 100%;
   scroll-snap-align: start;
 }
