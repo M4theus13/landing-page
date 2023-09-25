@@ -33,7 +33,7 @@
 
 .text {
   max-width: 800px;
-  margin: 20px;
+  margin: 0 20px;
 }
 
 .text h2 {
@@ -55,15 +55,19 @@
 }
 
 .book {
-  width: 220px;
+  width: 160px;
 }
 
 
 @media (min-width:768px) {
 
+  .box {
+    flex-direction: row;
+  }
+
   .text h2 {
     font-size: 25px;
-    width: 520px;
+    width: 480px;
     line-height: 34px;
   }
 
@@ -72,6 +76,10 @@
     font-size: 15px;
     letter-spacing: 1.84px;
     line-height: 30px;
+  }
+
+  .book {
+    width: 210px;
   }
 
 }
