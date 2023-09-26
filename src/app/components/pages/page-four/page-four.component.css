@@ -102,6 +102,12 @@ p {
   }
 
   p {
+    font-size: 17px;
+  }
+}
+
+@media (min-width:1700px) {
+  p {
     font-size: 29px;
     line-height: 33px;
     height: 300px;

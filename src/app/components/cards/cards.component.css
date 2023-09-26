@@ -34,7 +34,7 @@
 
 @media (min-width:1360px) {
     .card {
-      height: 490px;
+      height: 410px;
       width: 350px;
     }
 
@@ -42,5 +42,11 @@
       font-size: 19px;
       letter-spacing: 6px;
       bottom: 30px;
+    }
+}
+
+@media (min-width:1700px) {
+    .card {
+      height: 490px;
     }
 }
