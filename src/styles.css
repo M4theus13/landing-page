@@ -21,10 +21,12 @@
 .main {
   width: 100%;
   height: 500vh;
-  background: url('assets/background.jpg') no-repeat;
+  background: url('assets/bg.jpg') no-repeat;
+  background-color: var(--font-black);
   background-size: cover;
-  background-position: 70% 50%;
+  background-position: 50% 50%;
   z-index: -2;
+  background-color: black;
 }
 
 html {
@@ -52,11 +54,4 @@ html {
 
 .more:hover {
   content: url('assets/setahover.png');
-}
-
-@media (min-width:1024px) {
-  .main {
-    background-position: 60% 50%;
-  }
-
 }

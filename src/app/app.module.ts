@@ -9,6 +9,8 @@ import { PageFourComponent } from './components/pages/page-four/page-four.compon
 import { PageFiveComponent } from './components/pages/page-five/page-five.component';
 import { ButtonComponent } from './components/button/button.component';
 import { CardsComponent } from './components/cards/cards.component';
+import { FooterComponent } from './components/footer/footer.component';
+import { FontAwesomeModule } from '@fortawesome/angular-fontawesome';
 
 @NgModule({
   declarations: [
@@ -19,10 +21,12 @@ import { CardsComponent } from './components/cards/cards.component';
     PageFourComponent,
     PageFiveComponent,
     ButtonComponent,
-    CardsComponent
+    CardsComponent,
+    FooterComponent
   ],
   imports: [
-    BrowserModule
+    BrowserModule,
+    FontAwesomeModule
   ],
   providers: [],
   bootstrap: [AppComponent]
