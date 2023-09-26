@@ -30,19 +30,19 @@
 
 h1 {
   color: var(--red);
-  font-size: 47px;
+  font-size: 40px;
   font-style: normal;
   font-weight: 800;
-  line-height: 67px;
+  line-height: 56px;
   letter-spacing: 4px;
   text-transform: uppercase;
   text-align: center;
   max-width: 800px;
-  padding-top: 20px;
+  padding-top: 0px;
 }
 
 p {
-  font-size: 32px;
+  font-size: 28px;
   font-style: normal;
   font-weight: 800;
   line-height: 39px;
@@ -50,7 +50,7 @@ p {
   text-transform: uppercase;
   text-align: center;
   max-width: 500px;
-  padding-top: 20px;
+  padding-top: 10px;
 }
 
 span {
