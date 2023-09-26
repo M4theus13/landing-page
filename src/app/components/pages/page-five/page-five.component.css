@@ -73,3 +73,9 @@ span {
     margin-top: 70px;
   }
 }
+
+@media (min-width:1360px) {
+  h1 {
+    font-size: 65px;
+  }
+}
