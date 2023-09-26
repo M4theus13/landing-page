@@ -80,7 +80,6 @@
   .book {
     width: 210px;
   }
-
 }
 
 @media (min-width:1024px) {
@@ -101,8 +100,6 @@
   .text p {
     font-size: 22px;
   }
-
-
 }
 
 @media (min-width:1360px) {
@@ -121,5 +118,4 @@
   .book {
     width: 410px;
   }
-
 }

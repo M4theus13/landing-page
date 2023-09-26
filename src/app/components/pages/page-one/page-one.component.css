@@ -86,9 +86,6 @@ span {
 
   .img {
     position: static;
-    bottom: 20%;
-    top: auto;
-    left: 43%;
   }
 }
 
@@ -109,8 +106,6 @@ span {
   }
 
   .img {
-    bottom: 15%;
-    left: 55%;
     width: 540px;
     height: 510px;
   }
@@ -120,7 +115,7 @@ span {
 @media (min-width:1360px) {
 
   .box {
-    margin-left: 80px;
+    margin-left: 20px;
   }
 
   h1 {
@@ -149,16 +144,20 @@ span {
     height: 600px;
   }
 }
+
 @media (min-width:1430px) {
   .img {
-    left: 45%;
     width: 780px;
     height: 760px;
-    bottom: 10%;
+  }
+
+  .box {
+    margin-left: 140px;
   }
 }
+
 @media (min-width:1920px) {
   .box {
-    margin-left: 355px;
+    margin-left: 160px;
   }
 }

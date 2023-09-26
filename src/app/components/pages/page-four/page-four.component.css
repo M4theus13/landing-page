@@ -46,8 +46,6 @@ p {
 }
 
 @media (min-width:760px) {
-
-
   .box {
     display: flex;
     justify-content: center;
@@ -80,14 +78,23 @@ p {
 }
 
 @media (min-width:1360px) {
+  #four {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+  }
 
   .box {
-    height: 70%;
+    height: 100%;
+    gap: 30px;
+  }
+
+  .box > div {
+    gap: 120px;
   }
 
   h2 {
-    padding-top: 60px;
-    padding-bottom: 20px;
+    padding: 0;
   }
 
   .img {
@@ -95,7 +102,8 @@ p {
   }
 
   p {
-    font-size: 20px;
-    line-height: 30px;
+    font-size: 29px;
+    line-height: 33px;
+    height: 300px;
   }
 }
